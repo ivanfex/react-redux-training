@@ -78,7 +78,7 @@ const initialState = Map({
   isFetching: true,
   error: ''
 })
-
+//ducks export
 export default function ducks (state = initialState, action) {
   switch (action.type) {
     case FETCHING_DUCK :
